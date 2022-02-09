@@ -1,10 +1,84 @@
-* {
+:root {
+    --dark-cyan: #155e75;
+    --light-cyan: #a5f3fc;
+}
 
+* {
+    font-family: "Times New Roman", serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    width: 50vw;
+    width: 100%;
+    max-width: 500px;
+    min-height: 250px;
     margin: auto;
+    padding: 2rem 1.5rem;
+    text-align: center;
+    background-color: var(--dark-cyan);
 }
+
+h1, p {
+    color: white;
+}
+
+.label {
+    color: var(--light-cyan);
+    font-size: larger;
+    padding: 1rem;
+}
+
+input {
+    width: 100%;
+    font-size: large;
+    padding: 0.5rem;
+    display: block;
+}
+
+button {
+    background-color: var(--light-cyan);
+    color: var(--dark-cyan);
+    font-size: large;
+    font-weight: bold;
+    display: block;
+    margin: 1rem auto;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+}
+
+.cashGivenInput {
+    display: none;
+}
+
+.change-return {
+    display: none;
+}
+
+.error-message {
+    color: white;
+    padding-top: 1rem;
+}
+
+th, td {
+    padding: 0.2rem;
+    border: 1px solid var(--dark-cyan);
+    background-color: var(--light-cyan);
+}
+
+.no-of-notes {
+    background-color: white;
+    color: var(--dark-cyan);
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+}
+
