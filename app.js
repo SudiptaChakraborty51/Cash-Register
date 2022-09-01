@@ -66,5 +66,6 @@ function hideMessage(){
 function showMessage(message){
     errorMessage.style.display = "block";
     errorMessage.innerText = message;
+    errorMessage.style.color = "red";
     changeReturnDiv.style.display = "none";
 }
