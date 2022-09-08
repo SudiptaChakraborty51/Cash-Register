@@ -85,3 +85,24 @@ table {
     table-layout: fixed;
 }
 
+footer {
+    margin-top: 5rem;
+    text-align: center;
+    padding: 1rem 0rem 0rem 1rem;
+}
+
+.footer-list {
+    padding-inline-start: 0px;
+}
+
+.portfolio {
+    text-decoration: none;
+    color: var(--dark-cyan);
+    font-weight: bold;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding: 1rem;
+}
