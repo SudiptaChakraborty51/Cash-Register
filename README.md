@@ -8,3 +8,8 @@
 ## bonus
 
 - You need two inputs from the user. Can you make it in a way where second input is only visible after the first input is given i.e. bill amount should be filled. 
+
+### Tech-Stack
+1. HTML5
+2. CSS3
+3. Vanilla JS
